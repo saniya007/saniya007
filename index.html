@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html="en">
+<meta charset="UTF-8">
+<title>placement cell</title>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+
+    
+    box-sizing: border-box;
+    }
+    
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    
+    float: centre;
+  width: 100%;
+  margin-top: 6px;
+  padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+    
+    /* Style the header */
+    .header {
+      padding: 10px;
+      text-align: center;
+      background: #1abc9c;
+      color: rgb(14, 10, 10);
+    }
+    
+    /* Increase the font size of the h1 element */
+    .header h1 {
+      font-size: 40px;
+    }
+
+      /* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Footer */
+.footer {
+  padding: 2px;
+  text-align: center;
+  background: rgb(232, 233, 243);
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(70, 233, 138, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #0c110d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+
+
+.coloum {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+</style>
+</head>
+<body>
+    
+    
+    <div class="header" >
+      <img src="https://lh3.googleusercontent.com/proxy/jBbyoePDb-riy6EdceRiMDjV-G2q5WluQQr6NOETaoBZjAVNDGumEGmit06XRPkjsXblUMa19xdMpvtMRgrK5qo9Wsp3fxI "
+        alt="HTML5 Icon"
+        style="width:128px;height:128px;">  
+      <h1>GOVT.POLYTECHNIC,PURAPUZHA</h1>
+      <p>placement cell</p>
+    </div>
+
+
+    <div class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#academics">ACADEMICS</a>
+        <a href="#contact" class="right">CONTACT US</a>
+      </div>
+      
+    </body>
+    </html>
+    
+
+<link rel="stylesheet" href="index.html">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body>
+
+<table width="800" border="1" align="center" cellpadding="5">
+<body style="background-color:#8f875dde;">
+
+
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+<!-- Slides -->
+<img class="slides" src="https://lh3.googleusercontent.com/proxy/AbBY600oj3HFzXm5gHi9d1Ks6GFLAuXV9gKzPThpTU1comZN7RVhMJJwmmtiPqCNH8UzP3jOI8Wu5kwUD_jZlZnMz7RTcAoLvjI_OvB79lKnJmxv " width="100%">
+<img class="slides" src="https://lh3.googleusercontent.com/proxy/T-EcAXlCmRMlnyfnkMtUPmXhpbHZpdqITS46XIQRRxXXIfPjHFaGn_-DDtbnpJdvSZp60ctHazfS1qrQhiw3NDew2PvV3MRenvZY9n8CCmWkQgCt " width="100%">
+<img class="slides" src="https://lh3.googleusercontent.com/proxy/CEweYrZRCRUvCKyo23d4VtgybEDYG_nBerNBPOLGrTLIc7caDEA2N6NjH9P533w6ooN4BHlOfXEDvleS6ubNkBdsCd0su1_C6SPLhQQGvrdVCrvB " width="100%">
+<script>
+w3.slideshow(".slides", 1500);
+</script>
+
+<!-- About -->
+
+<div class="about-section" >
+    <div id="about" class="w3-content">
+
+    <h1>ABOUT US AND OUR PLACEMENT CELL</h1>
+    <p>THIS IS OUR STUDENT PLACEMENT CELL WEBSITE</p>
+    <p>The Placement Cell plays a crucial role in locating job opportunities for Under Graduates and Post Graduates passing out from the college by keeping in touch with reputed firms and industrial establishments. The Placement Cell operates round the year to facilitate contacts between companies and graduates. The number of students placed through the campus interviews is continuously rising. On invitation, many reputed industries visit the institute to conduct interviews.
+    
+        We have been successful in maintaining our high placement statistics over the years and the fact that our students bear the recession blues with record breaking placements itself is a testimony to our quality. Our ingenious alumnae have set new standards in the corporate world through their estimable contributions and it is my firm conviction that we will continue that legacy in the years to come.
+        
+        The Placement Cell organizes career guidance programmes for all the stng from first year. The cell arranges training programmes like Mock Interviews, Group Discussions, Communication Skills Workshop etc and it also organizes Public Sector Exam Training for students who are interested to join Government Sectors. It also invites HR Managers from different industries to conduct training programmes for final year students. </p>
+    </div>
+     
+  </div>
+
+
+  <h2 style="text-align:center">OUR TEAM</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src=" https://lh3.googleusercontent.com/proxy/J1qupIUihuqP84YJtWSPmZXOfsLfEKsw3Jejfbjhegl7or6jNRJnsJT_OpEujBhJeIJC81zGvFCry0wGi_Ca1IEy" alt="suresh" style="width:100%">
+        <div class="container">
+          <h2>Suresh Kumar </h2>
+          <p class="title">PRINCIPAL</p>
+          <p>principal of gpc purapuzha.</p>
+          <p>suresh@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="data:image/jpeg;base64,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 " alt="manjusha" style="width:100%">
+        <div class="container">
+          <h2>Manjusha T.T</h2>
+          <p class="title">HOD</p>
+          <p>Head of the department(CT)</p>
+          <p>manjushattajay008@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <img src="https://lh3.googleusercontent.com/proxy/eM707TeTEaxNtVM7NNzdet7wpPgQcVNuP0GmKVR9FwllPFuLNxbQz9okhTJX7-xBFwKxnWt_BjmtclEJAcf0Hb3o " alt="sudheer" style="width:100%">
+        <div class="container">
+        <h2>Dr.K.M. Muhamed Sudheer </h2>
+          <p class="title">HOD</p>
+          <p>Head of the department(IF).</p>
+          <p>sudheer@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- academics -->
+
+  <div class="academics-section" >
+  <div id="academics" class="w3-content">
+  <h1 style="text-align:center">ACADEMICS</h1>
+
+<div class="row">
+  <div class="column">
+    <img src="https://lh3.googleusercontent.com/proxy/OiCFrOMGq56ILhRduO0S9dH3-aHgCyvEgLwHC9fEXJQ3ue7ghci7kg7K88mq9O2lQGgYlnQxAThnFh1vTRUgXeuLF7-oPKsS2LrURd9_ " alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://scontent-maa2-1.xx.fbcdn.net/v/t1.6435-9/128950111_211844550458919_7384695870973029039_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=973b4a&_nc_ohc=zezYAnvQ53cAX_eaK8C&_nc_ht=scontent-maa2-1.xx&oh=a1d1e20c6d89ecadc356ade36e0d92e4&oe=60E3F4E8 " alt="Forest" style="width:100%">
+  </div>
+</div>
+
+
+<!-- Contact -->
+</style>
+</head>
+<body>
+
+
+<div class="container" >
+    <div id="contact" class="w3-content">
+
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+</div>
+<div class="row">
+    <div class="column" >
+        <img src="https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGFjdCUyMHVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80 " style="width:100%">
+        
+    </div>
+    <div class="column"  >
+      <form action="/action_page.php">
+        <label for="fname">FIRST NAME</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">LAST NAME</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="lname">EMAIL ID</label>
+        <input type="text" id="lname" name="lastname" placeholder="email id..">
+        <label for="subject">SUBJECT</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<!-- End Content -->
+  
+
+<div class="footer">
+    <h2>@Created by saniya</h2>
+  </div>
+
+</body>
+</html>
