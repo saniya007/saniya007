@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>
+BIO-DATA
+</title>
+<body>
+  <table width="800" border="1" align="center" cellpadding="5">
+<body style="background-color:#C0C0C0;">
+<caption align="center">BIO-DATA</caption>
+   <tr>
+<td colspan="2" align="center"><img src="https://static.wixstatic.com/media/7b217c_b202ca12a8f74ac5b25257f76c43a113~mv2.jpg" border="5" height="350" width="300">
+</td>
+</tr>
+    <td colspan="2">BASIC INFO<hr/></td>
+   </tr>
+   <tr>
+    <td width="50%" align="right">Full Name:</td>
+    <td><font color="black">Saniya fathima</td>
+   </tr>
+ <tr>
+    <td align="right">Father's Name:</td>
+    <td><font color="black">Abdul salam</td>
+   </tr>
+ <tr>
+    <td align="right">Mother's Name:</td>
+    <td><font color="black">Filma beevi</td>
+   </tr>
+   <tr>
+    <td align="right">Age:</td>
+    <td><font color="black">20 Years</td>
+   </tr>
+   <tr>
+    <td align="right">Date of Birth:</td>
+    <td><font color="black"08<sup>th</sup> April</td>
+   </tr>
+ <tr>
+    <td align="right">Blood group:</td>
+    <td><font color="black">AB+</td>
+   </tr>
+   <tr>
+    <td align="right">Religion:</td>
+    <td><font color="black">Muslim</td>
+   </tr>
+   <tr>
+    <td align="right">Nationality:</td>
+    <td><font color="black">Indian</td>
+   </tr>
+   <tr>
+    <td colspan="2">CONTACT DETAILS<hr/></td>
+   </tr>
+   <tr>
+    <td align="right" valign="top">Address:</td>
+    <td><font color="black">Salamiya manzil</br>
+    panangad,Ollaril road,</br>
+    panangad p.o -682506</td>
+   </tr>
+   <tr>
+    <td align="right" valign="top">Phone Number:</td>
+    <td><font color="black">7306557627</br>
+    9847639203</td>
+   </tr>
+   <tr>
+    <td align="right">Email Address:</td>
+    <td><font color="black">saniyasachuzz007@gmail.com</td>
+   </tr>
+ <td colspan="2">ABOUT ME<hr/></td>
+   </tr>
+   <tr>
+    <td align="right">SKills:</td>
+<td><font color="black"> Critical thinking, Flexible, Problem solving, Time management, Leadership, Honest, Building teams and trust, works well under pressure</font></td>
+   </tr>
+   <tr>
+<td align="right">Hobbies:</td>
+    <td><font color="black">music , Travelling, dance, drawing </td>
+   </tr>
+   <tr>
+    <td colspan="2">EDUCATION & KNOWLEDGE<hr/></td>
+   </tr>
+   <tr>
+    <td align="right">Language:</td>
+    <td><font color="black">English,Malayalam</td>
+   </tr><tr>
+    <td align="right">Education:</td>
+    <td><font color="black">Diploma in computer engineering, plustwo</td>
+   </tr><tr>
+    <td align="right">Other Knowledge:</td>
+    <td><font color="black">c, c++, python, mysql</td>
+   </tr><tr>
+<table>
+<table border="2" width="800" align="center" bgcolor="grey">
+  <tr>
+    <td colspan="2">DECLARATION<hr/></td>
+   </tr>
+   <br>
+   <br>
+  
+ <td><font color="white"> I hereby declare that the above particulars of facts and information stated are true, correct and complete to the best of my belief and knowledge.  </td>
+ 
+   </table>
+   </body>
+   <br>
+   <br>
+  <table>
+ <table width="800" align="center" cellpadding="5">
+<body style="background-color:#C0C0C0;">
+<tr>
+    <td colspan="2">DATE:<hr/></td>
+   </tr>
+   <tr>
+    <td colspan="2">PLACE:<hr/></td>
+   </tr>
+ <tr>
+    <td width="90%" align="right">(</td>
+    <td><font color="black">SANIYA FATHIMA)</td>
+    </table>
+ </html>
